@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1391196967409252}
+  m_IsPrefabAsset: 1
+--- !u!1 &1391196967409252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4834230985743088}
+  - component: {fileID: 114165101905209924}
+  m_Layer: 0
+  m_Name: Flock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4834230985743088
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391196967409252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114165101905209924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1391196967409252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c830709f6a23441835262dffda15bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  butterflyPrefab:
+  - {fileID: 148712, guid: 1f1ecd923f2558941b740810e654b01e, type: 2}
+  - {fileID: 148712, guid: 89e2cb02c3620a846a153908c0dd80f7, type: 2}
+  - {fileID: 148712, guid: d059f65c0280e3e43afc66e6a316c251, type: 2}
+  - {fileID: 148712, guid: e4a0c8d71c8710c4bae8ae38221517fa, type: 2}
+  - {fileID: 148712, guid: 1949ef8791a1d8542b4bd88cf443aba4, type: 2}
+  - {fileID: 148712, guid: c160192b2d5feb645ba51f1a411722bd, type: 2}
+  - {fileID: 148712, guid: 9154d337cd1e4b64596d9a18159502a4, type: 2}
+  areaSize: 20
+  numButterflies: 100
+  allButterfly: []
+  goalPos: {x: 0, y: 0, z: 0}

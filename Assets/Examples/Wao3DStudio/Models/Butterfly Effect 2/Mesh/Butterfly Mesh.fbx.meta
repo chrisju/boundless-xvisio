@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: 6936745dcec97c54ba75459ebd5afda0
+timeCreated: 1457737864
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anim
+    100002: Antena
+    100004: Antena CTRL
+    100006: Antena CTRL_end
+    100008: Antena.001
+    100010: Antena.002
+    100012: Antena.003
+    100014: Antena.004
+    100016: Antena.005
+    100018: Antena.006
+    100020: Antena.007
+    100022: Antena.008
+    100024: Antena.009
+    100026: Antena.009_end
+    100028: Base_CTRL
+    100030: Bone.007
+    100032: Bone.007_end
+    100034: Butterfly Body
+    100036: //RootNode
+    100038: Butterfly Wigs
+    100040: L.Back_Foot CTRL
+    100042: L.Back_Foot CTRL_end
+    100044: L.Back_leg
+    100046: L.Back_leg.001
+    100048: L.Back_leg.002
+    100050: L.Back_leg.003
+    100052: L.Back_leg.004
+    100054: L.Back_leg.005
+    100056: L.Back_leg.005_end
+    100058: L.Back_leg_Dir_CTRL
+    100060: L.Back_leg_Dir_CTRL_end
+    100062: L.front_Foot_CTRL
+    100064: L.front_Foot_CTRL_end
+    100066: L.front_leg
+    100068: L.front_leg.001
+    100070: L.front_leg.002
+    100072: L.front_leg.003
+    100074: L.front_leg.004
+    100076: L.front_leg.005
+    100078: L.front_leg.006
+    100080: L.front_leg.006_end
+    100082: L.front_leg_Dir_CTRL
+    100084: L.front_leg_Dir_CTRL_end
+    100086: L.Middle_Foot_CTRL
+    100088: L.Middle_Foot_CTRL_end
+    100090: L.Middle_leg
+    100092: L.Middle_leg.001
+    100094: L.Middle_leg.002
+    100096: L.Middle_leg.003
+    100098: L.Middle_leg.004
+    100100: L.Middle_leg.005
+    100102: L.Middle_leg.005_end
+    100104: L.Middle_leg_Dir_CTRL
+    100106: L.Middle_leg_Dir_CTRL_end
+    100108: L.Wing_middle
+    100110: L.Wing_middle.001
+    100112: L.Wing_middle.002
+    100114: L.Wing_middle.003
+    100116: L.Wing_middle.004
+    100118: L.Wing_middle.005
+    100120: L.Wing_middle.006
+    100122: L.Wing_middle.006_end
+    100124: R.Back_Foot CTRL
+    100126: R.Back_Foot CTRL_end
+    100128: R.Back_leg
+    100130: R.Back_leg.001
+    100132: R.Back_leg.002
+    100134: R.Back_leg.003
+    100136: R.Back_leg.004
+    100138: R.Back_leg.005
+    100140: R.Back_leg.005_end
+    100142: R.Back_leg_Dir_CTRL
+    100144: R.Back_leg_Dir_CTRL_end
+    100146: R.front_Foot_CTRL
+    100148: R.front_Foot_CTRL_end
+    100150: R.front_leg
+    100152: R.front_leg.001
+    100154: R.front_leg.002
+    100156: R.front_leg.003
+    100158: R.front_leg.004
+    100160: R.front_leg.005
+    100162: R.front_leg.006
+    100164: R.front_leg.006_end
+    100166: R.front_leg_Dir_CTRL
+    100168: R.front_leg_Dir_CTRL_end
+    100170: R.Middle_Foot_CTRL
+    100172: R.Middle_Foot_CTRL_end
+    100174: R.Middle_leg
+    100176: R.Middle_leg.001
+    100178: R.Middle_leg.002
+    100180: R.Middle_leg.003
+    100182: R.Middle_leg.004
+    100184: R.Middle_leg.005
+    100186: R.Middle_leg.005_end
+    100188: R.Middle_leg_Dir_CTRL
+    100190: R.Middle_leg_Dir_CTRL_end
+    100192: R.Wing_middle
+    100194: R.Wing_middle.001
+    100196: R.Wing_middle.002
+    100198: R.Wing_middle.003
+    100200: R.Wing_middle.004
+    100202: R.Wing_middle.005
+    100204: R.Wing_middle.006
+    100206: R.Wing_middle.006_end
+    100208: Root
+    100210: Spine.001
+    100212: Spine.002
+    100214: Spine.003
+    100216: Spine.004
+    100218: Spine_CTRL
+    100220: Spine_CTRL_end
+    100222: Tail
+    100224: Tail.001
+    100226: Tail.002
+    100228: Tail.003
+    100230: Tail.003_end
+    100232: Tail.004
+    100234: Tail.004_end
+    400000: Anim
+    400002: Antena
+    400004: Antena CTRL
+    400006: Antena CTRL_end
+    400008: Antena.001
+    400010: Antena.002
+    400012: Antena.003
+    400014: Antena.004
+    400016: Antena.005
+    400018: Antena.006
+    400020: Antena.007
+    400022: Antena.008
+    400024: Antena.009
+    400026: Antena.009_end
+    400028: Base_CTRL
+    400030: Bone.007
+    400032: Bone.007_end
+    400034: Butterfly Body
+    400036: //RootNode
+    400038: Butterfly Wigs
+    400040: L.Back_Foot CTRL
+    400042: L.Back_Foot CTRL_end
+    400044: L.Back_leg
+    400046: L.Back_leg.001
+    400048: L.Back_leg.002
+    400050: L.Back_leg.003
+    400052: L.Back_leg.004
+    400054: L.Back_leg.005
+    400056: L.Back_leg.005_end
+    400058: L.Back_leg_Dir_CTRL
+    400060: L.Back_leg_Dir_CTRL_end
+    400062: L.front_Foot_CTRL
+    400064: L.front_Foot_CTRL_end
+    400066: L.front_leg
+    400068: L.front_leg.001
+    400070: L.front_leg.002
+    400072: L.front_leg.003
+    400074: L.front_leg.004
+    400076: L.front_leg.005
+    400078: L.front_leg.006
+    400080: L.front_leg.006_end
+    400082: L.front_leg_Dir_CTRL
+    400084: L.front_leg_Dir_CTRL_end
+    400086: L.Middle_Foot_CTRL
+    400088: L.Middle_Foot_CTRL_end
+    400090: L.Middle_leg
+    400092: L.Middle_leg.001
+    400094: L.Middle_leg.002
+    400096: L.Middle_leg.003
+    400098: L.Middle_leg.004
+    400100: L.Middle_leg.005
+    400102: L.Middle_leg.005_end
+    400104: L.Middle_leg_Dir_CTRL
+    400106: L.Middle_leg_Dir_CTRL_end
+    400108: L.Wing_middle
+    400110: L.Wing_middle.001
+    400112: L.Wing_middle.002
+    400114: L.Wing_middle.003
+    400116: L.Wing_middle.004
+    400118: L.Wing_middle.005
+    400120: L.Wing_middle.006
+    400122: L.Wing_middle.006_end
+    400124: R.Back_Foot CTRL
+    400126: R.Back_Foot CTRL_end
+    400128: R.Back_leg
+    400130: R.Back_leg.001
+    400132: R.Back_leg.002
+    400134: R.Back_leg.003
+    400136: R.Back_leg.004
+    400138: R.Back_leg.005
+    400140: R.Back_leg.005_end
+    400142: R.Back_leg_Dir_CTRL
+    400144: R.Back_leg_Dir_CTRL_end
+    400146: R.front_Foot_CTRL
+    400148: R.front_Foot_CTRL_end
+    400150: R.front_leg
+    400152: R.front_leg.001
+    400154: R.front_leg.002
+    400156: R.front_leg.003
+    400158: R.front_leg.004
+    400160: R.front_leg.005
+    400162: R.front_leg.006
+    400164: R.front_leg.006_end
+    400166: R.front_leg_Dir_CTRL
+    400168: R.front_leg_Dir_CTRL_end
+    400170: R.Middle_Foot_CTRL
+    400172: R.Middle_Foot_CTRL_end
+    400174: R.Middle_leg
+    400176: R.Middle_leg.001
+    400178: R.Middle_leg.002
+    400180: R.Middle_leg.003
+    400182: R.Middle_leg.004
+    400184: R.Middle_leg.005
+    400186: R.Middle_leg.005_end
+    400188: R.Middle_leg_Dir_CTRL
+    400190: R.Middle_leg_Dir_CTRL_end
+    400192: R.Wing_middle
+    400194: R.Wing_middle.001
+    400196: R.Wing_middle.002
+    400198: R.Wing_middle.003
+    400200: R.Wing_middle.004
+    400202: R.Wing_middle.005
+    400204: R.Wing_middle.006
+    400206: R.Wing_middle.006_end
+    400208: Root
+    400210: Spine.001
+    400212: Spine.002
+    400214: Spine.003
+    400216: Spine.004
+    400218: Spine_CTRL
+    400220: Spine_CTRL_end
+    400222: Tail
+    400224: Tail.001
+    400226: Tail.002
+    400228: Tail.003
+    400230: Tail.003_end
+    400232: Tail.004
+    400234: Tail.004_end
+    4300000: Butterfly Wigs
+    4300002: Butterfly Body
+    7400000: Butterfly Effect 2 Idle Landed
+    7400002: Anim|Butterfly Effect 2 Take Flight and Land
+    7400004: 'Effect 2 Take Flight '
+    7400006: Butterfly Effect 2 Fly Idle
+    7400008: Butterfly Effect 2 Land
+    7400010: Butterfly Effect 2 Idle Stand
+    9500000: //RootNode
+    13700000: Butterfly Body
+    13700002: Butterfly Wigs
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 'Effect 2 Take Flight '
+      takeName: Butterfly Effect 2 Take Flight and Land
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim
+        weight: 1
+      - path: Anim/Base_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL/Antena CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL/L.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL/L.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL/L.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL/L.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL/L.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL/L.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL/R.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL/R.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL/R.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL/R.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL/R.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL/R.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005/L.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006/L.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005/R.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006/R.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005/L.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005/R.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006/L.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006/R.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009/Antena.009_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007/Bone.007_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003/Tail.003_end
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL/Spine_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004/Tail.004_end
+        weight: 1
+      - path: Butterfly Body
+        weight: 1
+      - path: Butterfly Wigs
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Butterfly Effect 2 Fly Idle
+      takeName: Butterfly Effect 2 Take Flight and Land
+      firstFrame: 90
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim
+        weight: 1
+      - path: Anim/Base_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL/Antena CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL/L.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL/L.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL/L.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL/L.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL/L.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL/L.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL/R.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL/R.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL/R.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL/R.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL/R.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL/R.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005/L.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006/L.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005/R.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006/R.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005/L.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005/R.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006/L.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006/R.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009/Antena.009_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007/Bone.007_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003/Tail.003_end
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL/Spine_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004/Tail.004_end
+        weight: 1
+      - path: Butterfly Body
+        weight: 1
+      - path: Butterfly Wigs
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Butterfly Effect 2 Land
+      takeName: Butterfly Effect 2 Take Flight and Land
+      firstFrame: 125
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim
+        weight: 1
+      - path: Anim/Base_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL/Antena CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL/L.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL/L.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL/L.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL/L.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL/L.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL/L.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL/R.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL/R.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL/R.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL/R.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL/R.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL/R.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005/L.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006/L.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005/R.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006/R.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005/L.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005/R.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006/L.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006/R.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009/Antena.009_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007/Bone.007_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003/Tail.003_end
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL/Spine_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004/Tail.004_end
+        weight: 1
+      - path: Butterfly Body
+        weight: 1
+      - path: Butterfly Wigs
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Butterfly Effect 2 Idle Landed
+      takeName: Butterfly Effect 2 Take Flight and Land
+      firstFrame: 235
+      lastFrame: 265
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim
+        weight: 1
+      - path: Anim/Base_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL/Antena CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL/L.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL/L.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL/L.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL/L.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL/L.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL/L.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL/R.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL/R.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL/R.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL/R.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL/R.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL/R.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005/L.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006/L.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005/R.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006/R.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005/L.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005/R.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006/L.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006/R.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009/Antena.009_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007/Bone.007_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003/Tail.003_end
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL/Spine_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004/Tail.004_end
+        weight: 1
+      - path: Butterfly Body
+        weight: 1
+      - path: Butterfly Wigs
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Butterfly Effect 2 Idle Stand
+      takeName: Butterfly Effect 2 Take Flight and Land
+      firstFrame: 235
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim
+        weight: 1
+      - path: Anim/Base_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Antena CTRL/Antena CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_Foot CTRL/L.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Back_leg_Dir_CTRL/L.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_Foot_CTRL/L.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.front_leg_Dir_CTRL/L.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_Foot_CTRL/L.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/L.Middle_leg_Dir_CTRL/L.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_Foot CTRL/R.Back_Foot CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Back_leg_Dir_CTRL/R.Back_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_Foot_CTRL/R.front_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.front_leg_Dir_CTRL/R.front_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_Foot_CTRL/R.Middle_Foot_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/R.Middle_leg_Dir_CTRL/R.Middle_leg_Dir_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Back_leg/L.Back_leg.001/L.Back_leg.002/L.Back_leg.003/L.Back_leg.004/L.Back_leg.005/L.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/L.Wing_middle/L.Wing_middle.001/L.Wing_middle.002/L.Wing_middle.003/L.Wing_middle.004/L.Wing_middle.005/L.Wing_middle.006/L.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Back_leg/R.Back_leg.001/R.Back_leg.002/R.Back_leg.003/R.Back_leg.004/R.Back_leg.005/R.Back_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/R.Wing_middle/R.Wing_middle.001/R.Wing_middle.002/R.Wing_middle.003/R.Wing_middle.004/R.Wing_middle.005/R.Wing_middle.006/R.Wing_middle.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/L.Middle_leg/L.Middle_leg.001/L.Middle_leg.002/L.Middle_leg.003/L.Middle_leg.004/L.Middle_leg.005/L.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/R.Middle_leg/R.Middle_leg.001/R.Middle_leg.002/R.Middle_leg.003/R.Middle_leg.004/R.Middle_leg.005/R.Middle_leg.005_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/L.front_leg/L.front_leg.001/L.front_leg.002/L.front_leg.003/L.front_leg.004/L.front_leg.005/L.front_leg.006/L.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/R.front_leg/R.front_leg.001/R.front_leg.002/R.front_leg.003/R.front_leg.004/R.front_leg.005/R.front_leg.006/R.front_leg.006_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Antena/Antena.001/Antena.002/Antena.003/Antena.004/Antena.005/Antena.006/Antena.007/Antena.008/Antena.009/Antena.009_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Spine.001/Spine.002/Spine.003/Spine.004/Bone.007/Bone.007_end
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003
+        weight: 1
+      - path: Anim/Base_CTRL/Root/Tail/Tail.001/Tail.002/Tail.003/Tail.003_end
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL
+        weight: 1
+      - path: Anim/Base_CTRL/Spine_CTRL/Spine_CTRL_end
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004
+        weight: 1
+      - path: Anim/Base_CTRL/Tail.004/Tail.004_end
+        weight: 1
+      - path: Butterfly Body
+        weight: 1
+      - path: Butterfly Wigs
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
