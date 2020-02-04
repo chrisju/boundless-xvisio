@@ -26,6 +26,7 @@ public class XvSlam : MonoBehaviour
 
     bool mIsApplicationIsPlaying = false;
     Thread usbReadingThread = null;
+    bool mResettingSLAM = false;
 
     int i = 0, j = 0;
 
@@ -56,12 +57,6 @@ public class XvSlam : MonoBehaviour
             originalPos = middlePos = this.transform.position;
             mIsApplicationIsPlaying = Application.isPlaying;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Debug.Log("Update " + i++);
         if (this == firstInstance && !slamInitialized)
         {
             try
@@ -73,13 +68,19 @@ public class XvSlam : MonoBehaviour
                 slamInitialized = true;
                 usbReadingThread = new Thread(new ThreadStart(usbReadingLoop));
                 usbReadingThread.Start();
-                StartCoroutine(update());
             }
             catch
             {
                 Debug.Log("Failed to open the slam.");
             }
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Debug.Log("Update " + i++);
+        XVisioUpdate();
     }
 
     void updateIMUConfig()
@@ -146,59 +147,62 @@ public class XvSlam : MonoBehaviour
         }
     }
 
-    IEnumerator update()
+    IEnumerator restartSLAM()
     {
-        while (true)
-        {
-            Debug.Log("IEnumerator " + j++);
-            if (!xvHid.setup())
-            {
-                yield return true;
-                continue;
-            }
-            enablePostFlt_pause_6dof();
-            updateIMUConfig();
-            //xvHid.update();  // update the info of xvHid first, and then access it
-            int device_state = xvHid.state();
+        if (mResettingSLAM) yield break;
+        mResettingSLAM = true;
 
-            if ((device_state == 2) || (device_state == 4) || (device_state == 5))
+        middleAngles = this.transform.eulerAngles;
+        middlePos = this.transform.position;
+        xvHid.request6Dof(false, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
+        //xvHid.enablePostFilter(postFilterEnabled, filterCoefRotation, filterCoefTranslation);
+        enablePostFlt();
+        xvHid.resetSLAM(true);
+        Debug.Log("Slam reset");
+        yield return new WaitForSecondsRealtime(curDataXvisioConfig.SlamResetCooldownTime);
+        xvHid.request6Dof(true, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
+        wrongStateCount = 0;
+
+        mResettingSLAM = false;
+    }
+
+    public void XVisioUpdate()
+    {
+        if (xvHid == null || !xvHid.setup()) return;
+        
+        enablePostFlt_pause_6dof();
+        updateIMUConfig();
+
+        int device_state = xvHid.state();
+
+        if ((device_state == 2) || (device_state == 4) || (device_state == 5))
+        {
+            wrongStateCount = 0;
+            doMoving();
+        }
+        else
+        {
+            wrongStateCount++;
+        }
+
+        if (wrongStateCount > curDataXvisioConfig.AllowedMaxWrongStateFrameNumber)
+        {
+            // reset the slam
+            if (!mResettingSLAM)
             {
-                wrongStateCount = 0;
-                //this.transform.rotation = xvHid.rotation();
-                //this.transform.Rotate(middleAngles);
-                //this.transform.position = xvHid.position() * posScale + middlePos;
-                doMoving();
-            }
-            else
-            {
-                wrongStateCount++;
-            }
-            if (wrongStateCount > curDataXvisioConfig.AllowedMaxWrongStateFrameNumber)
-            {
-                // reset the slam
-                middleAngles = this.transform.eulerAngles;
-                middlePos = this.transform.position;
-                xvHid.request6Dof(false, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
-                //xvHid.enablePostFilter(postFilterEnabled, filterCoefRotation, filterCoefTranslation);
-                enablePostFlt();
-                xvHid.resetSLAM(true);
-                Debug.Log("Slam reset");
-                yield return new WaitForSecondsRealtime(curDataXvisioConfig.SlamResetCooldownTime);
-                xvHid.request6Dof(true, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
-                wrongStateCount = 0;
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                xvHid.request6Dof(false, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
-                middlePos = originalPos;
-                middleAngles = originalAngles;
-                //xvHid.enablePostFilter(postFilterEnabled, filterCoefRotation, filterCoefTranslation);
-                enablePostFlt();
-                xvHid.resetSLAM(true);
-                new WaitForSecondsRealtime(curDataXvisioConfig.SlamResetCooldownTime);
-                xvHid.request6Dof(true, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
-            }
-            yield return true;
+                StartCoroutine(restartSLAM());
+            }                
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            xvHid.request6Dof(false, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
+            middlePos = originalPos;
+            middleAngles = originalAngles;
+            //xvHid.enablePostFilter(postFilterEnabled, filterCoefRotation, filterCoefTranslation);
+            enablePostFlt();
+            xvHid.resetSLAM(true);
+            new WaitForSecondsRealtime(curDataXvisioConfig.SlamResetCooldownTime);
+            xvHid.request6Dof(true, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
         }
     }
 
