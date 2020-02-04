@@ -24,6 +24,9 @@ public class XvSlam : MonoBehaviour
     private Vector3 posC;
     private bool filterStatus = false;
 
+    bool mIsApplicationIsPlaying = false;
+    Thread usbReadingThread = null;
+
     int i = 0, j = 0;
 
     [SerializeField] Data_XvisioConfig curDataXvisioConfig;
@@ -51,6 +54,7 @@ public class XvSlam : MonoBehaviour
             originalPos = new Vector3();
             middlePos = new Vector3();
             originalPos = middlePos = this.transform.position;
+            mIsApplicationIsPlaying = Application.isPlaying;
         }
     }
 
@@ -67,6 +71,8 @@ public class XvSlam : MonoBehaviour
                     curDataXvisioConfig.FilterCoefTranslation, curDataXvisioConfig.FirmwareFlip && curDataXvisioConfig.CameraUpSideDown);
                 //xvHid = new XvHid(firmwareFlip && cameraUpSideDown);
                 slamInitialized = true;
+                usbReadingThread = new Thread(new ThreadStart(usbReadingLoop));
+                usbReadingThread.Start();
                 StartCoroutine(update());
             }
             catch
@@ -113,6 +119,33 @@ public class XvSlam : MonoBehaviour
         }
     }
 
+    void OnApplicationQuit()
+    {
+        mIsApplicationIsPlaying = false;
+    }
+
+    // USB read funtcion on PC platform (in the plugin XvHid for Android)
+    public void usbReadingLoop()
+    {
+        // While the application is playing, we read usb data
+        while ( mIsApplicationIsPlaying )
+        {
+            if (xvHid != null && xvHid.setup())
+            {
+                try {
+                    xvHid.update();
+                }catch(Exception e)
+                {
+                    UnityEngine.Debug.LogError("read error");
+                }
+            }
+            else
+            {
+                Thread.Sleep(1);
+            }
+        }
+    }
+
     IEnumerator update()
     {
         while (true)
@@ -125,7 +158,7 @@ public class XvSlam : MonoBehaviour
             }
             enablePostFlt_pause_6dof();
             updateIMUConfig();
-            xvHid.update();  // update the info of xvHid first, and then access it
+            //xvHid.update();  // update the info of xvHid first, and then access it
             int device_state = xvHid.state();
 
             if ((device_state == 2) || (device_state == 4) || (device_state == 5))

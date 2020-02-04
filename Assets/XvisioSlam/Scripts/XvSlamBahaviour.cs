@@ -21,7 +21,7 @@ public class XvSlamBahaviour : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-  void Update () {
+  void LateUpdate () {
     this.transform.localPosition = XvSlam.position() * posScale + originalPos;
     this.transform.localRotation = XvSlam.rotation();
     this.transform.Rotate(this.originalAngles);
